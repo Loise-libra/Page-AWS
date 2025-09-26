@@ -1,0 +1,19 @@
+{
+  "name": "pawfect-web",
+  "version": "1.0.0",
+  "description": "Sitio web sobre perros con Node.js y Express",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": ["perros", "mascotas", "web"],
+  "author": "Loise",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
